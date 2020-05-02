@@ -11,6 +11,7 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+        pathPrefix: "/stan-code.github.io",
       },
     },
     `gatsby-transformer-sharp`,
@@ -31,4 +32,4 @@ module.exports = {
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
   ],
-}
+};
